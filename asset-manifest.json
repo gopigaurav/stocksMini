@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/stockMini/static/css/main.02166c6e.chunk.css",
+    "main.js": "/stockMini/static/js/main.4b0ca00e.chunk.js",
+    "main.js.map": "/stockMini/static/js/main.4b0ca00e.chunk.js.map",
+    "runtime-main.js": "/stockMini/static/js/runtime-main.d2f94035.js",
+    "runtime-main.js.map": "/stockMini/static/js/runtime-main.d2f94035.js.map",
+    "static/js/2.f158792a.chunk.js": "/stockMini/static/js/2.f158792a.chunk.js",
+    "static/js/2.f158792a.chunk.js.map": "/stockMini/static/js/2.f158792a.chunk.js.map",
+    "static/js/3.62d533e1.chunk.js": "/stockMini/static/js/3.62d533e1.chunk.js",
+    "static/js/3.62d533e1.chunk.js.map": "/stockMini/static/js/3.62d533e1.chunk.js.map",
+    "index.html": "/stockMini/index.html",
+    "static/css/main.02166c6e.chunk.css.map": "/stockMini/static/css/main.02166c6e.chunk.css.map",
+    "static/js/2.f158792a.chunk.js.LICENSE.txt": "/stockMini/static/js/2.f158792a.chunk.js.LICENSE.txt",
+    "static/media/AMZN.svg": "/stockMini/static/media/AMZN.8a708a0e.svg",
+    "static/media/GOOGL.png": "/stockMini/static/media/GOOGL.63312655.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2f94035.js",
+    "static/js/2.f158792a.chunk.js",
+    "static/css/main.02166c6e.chunk.css",
+    "static/js/main.4b0ca00e.chunk.js"
+  ]
+}
