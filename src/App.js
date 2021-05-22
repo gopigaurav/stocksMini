@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import logo from "./assets/Quickieapp-logo.png";
+import Cards from "./Cards";
+import Tables from "./Tables";
+import React, { useState } from "react";
 
 function App() {
+  const [openSavedData, setOpenSavedData] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="app">
+        <div className="header">
+          <img className="" src={logo} alt="logo" />
+        </div>
+        <div className="content-body">
+          <div className="content-body_cards">
+            <Cards sym="Goog" imgLoc="GOOGL.png" price={51616161} />
+            <Cards sym="FB" imgLoc="FB.png" price={55754154} />
+            <Cards sym="AMZN" imgLoc="AMZN.svg" price={65149851} />
+          </div>
+          {openSavedData ? (
+            <div className="content-body_table">
+              <Tables setOpenSavedData={setOpenSavedData}/>
+            </div>
+          ) : (
+            <div className="content-body_table">
+              <Tables />
+            </div>
+          )}
+        </div>
+      </div>
+    </>
   );
 }
 

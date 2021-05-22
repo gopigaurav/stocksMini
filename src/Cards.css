@@ -1,0 +1,24 @@
+
+.content-body_cards-body {
+  width: 250px;
+  height: 180px;
+  background: rgba(0,0,0,0.1);
+  border: 1px dashed rgba(0, 0, 0, 0.09);
+  box-sizing: border-box;
+  display: flex;
+  margin:10px;
+  flex-direction:column;
+  padding:20px 0px;
+}
+
+.logonname{
+  display: flex;
+  justify-content:space-around;
+}
+
+.stock-mkt-price{
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}

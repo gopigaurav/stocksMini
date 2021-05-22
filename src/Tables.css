@@ -1,0 +1,9 @@
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    width: 0;
+  }
+
+  .makeStyles-container-2{
+      max-height: 100%  !important;
+  }
